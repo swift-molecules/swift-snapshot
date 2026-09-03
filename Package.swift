@@ -19,7 +19,7 @@ let package = Package(
     ],
     dependencies: [
         .package(
-            url: "https://github.com/swift-primitives/swift-sequence-primitives.git",
+            url: "https://github.com/swift-atoms/swift-sequence.git",
             branch: "main"
         )
     ],
@@ -27,14 +27,13 @@ let package = Package(
         .target(
             name: "Snapshot",
             dependencies: [
-                .product(name: "Sequence Difference Primitives", package: "swift-sequence-primitives")
+                .product(name: "Sequence Difference", package: "swift-sequence")
             ],
             path: "Sources/Snapshot"
         ),
         .testTarget(
             name: "Snapshot Tests",
             dependencies: [
-                .target(name: "Snapshot")
             ],
             path: "Tests/Snapshot Tests"
         ),

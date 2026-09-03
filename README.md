@@ -1,7 +1,7 @@
 # Snapshot
 
 ![Development Status](https://img.shields.io/badge/status-active--development-blue.svg)
-[![CI](https://github.com/swift-primitives/swift-snapshot/actions/workflows/ci.yml/badge.svg)](https://github.com/swift-primitives/swift-snapshot/actions/workflows/ci.yml)
+[![CI](https://github.com/swift-molecules/swift-snapshot/actions/workflows/ci.yml/badge.svg)](https://github.com/swift-molecules/swift-snapshot/actions/workflows/ci.yml)
 
 Test-independent snapshot capture and comparison for Swift.
 
@@ -24,7 +24,7 @@ Add the package and its single product:
 
 ```swift
 .package(
-    url: "https://github.com/swift-primitives/swift-snapshot.git",
+    url: "https://github.com/swift-molecules/swift-snapshot.git",
     branch: "main"
 )
 
