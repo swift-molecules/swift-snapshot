@@ -27,7 +27,7 @@ let package = Package(
         .target(
             name: "Snapshot",
             dependencies: [
-                .product(name: "Sequence Difference", package: "swift-sequence")
+                .product(name: "Sequence", package: "swift-sequence")
             ],
             path: "Sources/Snapshot"
         ),
