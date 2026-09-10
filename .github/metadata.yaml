@@ -1,4 +1,3 @@
-# .github/metadata.yaml
 description: "Test-independent snapshot representations, comparisons, differences, normalization, redaction, and capture strategies."
 topics:
   - primitives
