@@ -34,6 +34,7 @@ let package = Package(
         .testTarget(
             name: "Snapshot Tests",
             dependencies: [
+                "Snapshot",
             ],
             path: "Tests/Snapshot Tests"
         ),

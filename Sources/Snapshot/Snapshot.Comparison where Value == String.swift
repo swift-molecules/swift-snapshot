@@ -1,4 +1,4 @@
-import Sequence_Difference_Primitives
+import Sequence
 
 extension Snapshot.Comparison where Value == String {
 
