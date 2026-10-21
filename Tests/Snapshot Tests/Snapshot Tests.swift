@@ -33,12 +33,14 @@ extension `Snapshot Tests`.Unit {
             "first\nnew\nlast"
         )
 
-        #expect(difference?.lines == [
-            .context("first"),
-            .removed("old"),
-            .added("new"),
-            .context("last"),
-        ])
+        #expect(
+            difference?.lines == [
+                .context("first"),
+                .removed("old"),
+                .added("new"),
+                .context("last"),
+            ]
+        )
         #expect(difference?.description.contains("-old") == true)
         #expect(difference?.description.contains("+new") == true)
     }

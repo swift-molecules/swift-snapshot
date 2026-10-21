@@ -9,7 +9,9 @@ struct `Snapshot line diff boundaries` {
         var right: [String] = []
         for line in lines {
             switch line {
-            case .context(let value): left.append(value); right.append(value)
+            case .context(let value):
+                left.append(value)
+                right.append(value)
             case .removed(let value): left.append(value)
             case .added(let value): right.append(value)
             }
