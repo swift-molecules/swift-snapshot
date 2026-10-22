@@ -1,3 +1,5 @@
+import _Concurrency
+
 extension Snapshot {
 
     public struct Faceted<Input: Sendable, Output: Sendable>: Sendable {

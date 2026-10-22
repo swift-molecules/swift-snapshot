@@ -1,3 +1,5 @@
+import _Concurrency
+
 extension Snapshot {
 
     public struct Strategy<Input: Sendable, Output: Sendable>: Sendable {
